@@ -1,0 +1,361 @@
+timestamp,ticker,text,user
+2026-10-08T09:02:00+00:00,JNJ,Trading Desk: Rumors of covenant breach and debt restructuring surrounding JNJ joint venture.,trader_229
+2026-10-08T09:16:00+00:00,JNJ,Desk Chat: JNJ announces emergency management restructuring and operational efficiency drive.,trader_280
+2026-10-08T09:30:00+00:00,GS,Flash: Port strikes and freight rate spikes create major logistics bottlenecks for GS.,trader_371
+2026-10-08T09:39:00+00:00,CVX,Breaking: Profit warning issued by CVX as operating costs surge in Q4.,trader_969
+2026-10-08T09:45:00+00:00,KO,Terminal Alert: Rumors of covenant breach and debt restructuring surrounding KO joint venture.,trader_161
+2026-10-08T10:00:00+00:00,GS,Flow: GS announces emergency management restructuring and operational efficiency drive.,trader_357
+2026-10-08T10:11:00+00:00,BAC,Terminal Alert: Macro headwinds and contraction in consumer spending weigh on BAC revenue.,trader_718
+2026-10-08T10:25:00+00:00,META,Headline: Spreads widening significantly by 25 bps on META 5-year senior unsecured debt.,trader_184
+2026-10-08T10:29:00+00:00,META,"Newswire: META reports blowout Q1 earnings, operating margins expand 25 bps YoY!",trader_870
+2026-10-08T10:43:00+00:00,GOOGL,Desk Chat: S&P and Moody's issue credit downgrade warning for GOOGL leveraged loan portfolio.,trader_447
+2026-10-08T10:54:00+00:00,BAC,Market Watch: Regulators open antitrust investigation into BAC's planned cloud acquisition.,trader_484
+2026-10-08T11:02:00+00:00,NVDA,SCOOP: Rumors spreading of sanctions hitting overseas subsidiaries of NVDA.,trader_340
+2026-10-08T11:20:00+00:00,PFE,Alert: Key semiconductor substrate shortage halts manufacturing lines at PFE.,trader_681
+2026-10-08T11:26:00+00:00,AAPL,Intelligence: Heavy institutional call option buying spotted on AAPL ahead of investor symposium.,trader_606
+2026-10-08T11:38:00+00:00,MSFT,"BofA Note: Gulf coast hurricane forces MSFT refinery shutdown, crude supplies tight.",trader_172
+2026-10-08T11:52:00+00:00,WMT,Newswire: Port strikes and freight rate spikes create major logistics bottlenecks for WMT.,trader_459
+2026-10-08T12:03:00+00:00,AMZN,"Flow: Fed signals hawkish stance, higher rates putting pressure on bank margins for AMZN.",trader_179
+2026-10-08T12:15:00+00:00,GS,Alert: Severe cloud outage at GS disrupts critical financial transaction feeds.,trader_421
+2026-10-08T12:24:00+00:00,MSFT,Flash: FDA grants approval for MSFT's breakthrough medical therapy.,trader_125
+2026-10-08T12:30:00+00:00,XOM,Alert: XOM unveils next-generation enterprise AI platform with breakthrough performance.,trader_776
+2026-10-08T12:42:00+00:00,MSFT,Desk Chat: DOJ prepares civil antitrust lawsuit against MSFT over market dominance.,trader_802
+2026-10-08T12:54:00+00:00,CVX,Flash: CVX announces emergency management restructuring and operational efficiency drive.,trader_949
+2026-10-08T13:03:00+00:00,PFE,Alert: PFE announces strategic buyout of key AI chip software vendor for $8.4B.,trader_640
+2026-10-08T13:17:00+00:00,CVX,Headline: CVX announces emergency management restructuring and operational efficiency drive.,trader_317
+2026-10-08T13:26:00+00:00,AAPL,BofA Note: Port strikes and freight rate spikes create major logistics bottlenecks for AAPL.,trader_148
+2026-10-08T13:43:00+00:00,KO,Alert: Profit warning issued by KO as operating costs surge in Q4.,trader_135
+2026-10-08T13:52:00+00:00,KO,Headline: Rumors spreading of sanctions hitting overseas subsidiaries of KO.,trader_345
+2026-10-08T14:01:00+00:00,AMZN,Breaking: Spreads widening significantly by 100 bps on AMZN 5-year senior unsecured debt.,trader_429
+2026-10-08T14:09:00+00:00,KO,Breaking: Wall Street analyst consensus downgrades KO citing valuation multiples.,trader_707
+2026-10-08T14:25:00+00:00,MSFT,Newswire: MSFT slashes FY forward revenue guidance citing slowing enterprise demand.,trader_835
+2026-10-08T14:32:00+00:00,GS,Headline: Strong operating cash flow generation and $2.5B dividend increase announced by GS.,trader_313
+2026-10-08T14:46:00+00:00,PFE,Terminal Alert: Key semiconductor substrate shortage halts manufacturing lines at PFE.,trader_931
+2026-10-08T14:53:00+00:00,MSFT,Alert: MSFT announces strategic buyout of key AI chip software vendor for $5.0B.,trader_126
+2026-10-08T15:11:00+00:00,JPM,Flash: Key semiconductor substrate shortage halts manufacturing lines at JPM.,trader_965
+2026-10-08T15:16:00+00:00,JNJ,Flash: FDA grants approval for JNJ's breakthrough medical therapy.,trader_811
+2026-10-08T15:31:00+00:00,META,SCOOP: META unveils next-generation enterprise AI platform with breakthrough performance.,trader_510
+2026-10-08T15:44:00+00:00,CVX,Newswire: CVX unveils next-generation enterprise AI platform with breakthrough performance.,trader_298
+2026-10-08T15:52:00+00:00,AAPL,Headline: Persistent CPI inflation and rising yield curve inversion compressing forward guidance for AAPL.,trader_564
+2026-10-08T16:05:00+00:00,AMZN,Breaking: Rumors of covenant breach and debt restructuring surrounding AMZN joint venture.,trader_410
+2026-10-08T16:14:00+00:00,GOOGL,Desk Chat: Heavy institutional call option buying spotted on GOOGL ahead of investor symposium.,trader_661
+2026-10-08T16:27:00+00:00,GS,Update: DOJ prepares civil antitrust lawsuit against GS over market dominance.,trader_488
+2026-10-08T16:35:00+00:00,JNJ,Trading Desk: FDA grants approval for JNJ's breakthrough medical therapy.,trader_842
+2026-10-08T16:49:00+00:00,AAPL,Headline: FDA grants approval for AAPL's breakthrough medical therapy.,trader_543
+2026-10-08T17:01:00+00:00,JNJ,Market Watch: JNJ unveils next-generation enterprise AI platform with breakthrough performance.,trader_602
+2026-10-08T17:11:00+00:00,KO,Update: Spreads widening significantly by 100 bps on KO 5-year senior unsecured debt.,trader_928
+2026-10-08T17:22:00+00:00,CVX,Flow: CVX announces emergency management restructuring and operational efficiency drive.,trader_169
+2026-10-08T17:29:00+00:00,KO,Market Watch: Profit warning issued by KO as operating costs surge in Q4.,trader_974
+2026-10-08T17:40:00+00:00,AMZN,Breaking: Regulators open antitrust investigation into AMZN's planned cloud acquisition.,trader_260
+2026-10-08T17:54:00+00:00,AAPL,Flow: Macro headwinds and contraction in consumer spending weigh on AAPL revenue.,trader_766
+2026-10-08T18:04:00+00:00,JNJ,Alert: JNJ facing supply chain friction due to new export controls and tariff threats in Gulf Region.,trader_987
+2026-10-08T18:16:00+00:00,XOM,Update: Daily market wrap: trading volumes in XOM surge as sector rotates.,trader_948
+2026-10-08T18:23:00+00:00,BAC,Newswire: Escalating regional military conflict in Eastern Europe sparks energy supply concerns for BAC.,trader_468
+2026-10-08T18:34:00+00:00,XOM,Alert: Port strikes and freight rate spikes create major logistics bottlenecks for XOM.,trader_307
+2026-10-08T18:50:00+00:00,AAPL,Newswire: Rating agency places AAPL credit rating on negative watch citing high leverage.,trader_416
+2026-10-08T18:58:00+00:00,KO,"Flow: Fed signals hawkish stance, higher rates putting pressure on bank margins for KO.",trader_850
+2026-10-08T19:10:00+00:00,NVDA,Flash: NVDA unveils next-generation enterprise AI platform with breakthrough performance.,trader_990
+2026-10-08T19:19:00+00:00,NVDA,Update: Macro headwinds and contraction in consumer spending weigh on NVDA revenue.,trader_911
+2026-10-08T19:29:00+00:00,GS,Update: GS announces strategic buyout of key AI chip software vendor for $8.4B.,trader_305
+2026-10-08T19:40:00+00:00,JPM,BofA Note: JPM announces strategic buyout of key AI chip software vendor for $1.2B.,trader_599
+2026-10-08T19:55:00+00:00,NVDA,BofA Note: Persistent CPI inflation and rising yield curve inversion compressing forward guidance for NVDA.,trader_518
+2026-10-08T20:03:00+00:00,CVX,Terminal Alert: CVX announces strategic buyout of key AI chip software vendor for $3.8B.,trader_948
+2026-10-08T20:18:00+00:00,CVX,SCOOP: Strong operating cash flow generation and $3.8B dividend increase announced by CVX.,trader_509
+2026-10-08T20:29:00+00:00,NVDA,Market Watch: Severe cloud outage at NVDA disrupts critical financial transaction feeds.,trader_124
+2026-10-08T20:36:00+00:00,GOOGL,BofA Note: Port strikes and freight rate spikes create major logistics bottlenecks for GOOGL.,trader_100
+2026-10-08T20:50:00+00:00,XOM,"Update: Gulf coast hurricane forces XOM refinery shutdown, crude supplies tight.",trader_420
+2026-10-08T20:56:00+00:00,AMZN,Market Watch: S&P and Moody's issue credit downgrade warning for AMZN leveraged loan portfolio.,trader_854
+2026-10-08T21:07:00+00:00,JNJ,Desk Chat: Unexpected 200 bps interest rate decision creates cross-asset volatility for JNJ.,trader_445
+2026-10-08T21:19:00+00:00,GS,Desk Chat: Rumors spreading of sanctions hitting overseas subsidiaries of GS.,trader_929
+2026-10-08T21:32:00+00:00,WMT,Intelligence: WMT facing supply chain friction due to new export controls and tariff threats in Gulf Region.,trader_486
+2026-10-08T21:42:00+00:00,CVX,Newswire: CVX announces emergency management restructuring and operational efficiency drive.,trader_115
+2026-10-08T21:54:00+00:00,KO,Market Watch: Unexpected 75 bps interest rate decision creates cross-asset volatility for KO.,trader_630
+2026-10-08T22:03:00+00:00,KO,Trading Desk: Profit warning issued by KO as operating costs surge in Q2.,trader_577
+2026-10-08T22:17:00+00:00,PFE,Desk Chat: FDA grants approval for PFE's breakthrough medical therapy.,trader_733
+2026-10-08T22:29:00+00:00,WMT,Market Watch: Port strikes and freight rate spikes create major logistics bottlenecks for WMT.,trader_752
+2026-10-08T22:42:00+00:00,BAC,Flash: Rumors spreading of sanctions hitting overseas subsidiaries of BAC.,trader_162
+2026-10-08T22:46:00+00:00,PFE,Update: Wall Street analyst consensus downgrades PFE citing valuation multiples.,trader_299
+2026-10-08T22:57:00+00:00,AAPL,SCOOP: Unexpected 200 bps interest rate decision creates cross-asset volatility for AAPL.,trader_367
+2026-10-08T23:11:00+00:00,KO,Report: Wall Street analyst consensus downgrades KO citing valuation multiples.,trader_209
+2026-10-08T23:21:00+00:00,KO,Report: Daily market wrap: trading volumes in KO surge as sector rotates.,trader_101
+2026-10-08T23:35:00+00:00,AMZN,Headline: DOJ prepares civil antitrust lawsuit against AMZN over market dominance.,trader_589
+2026-10-08T23:43:00+00:00,GS,"Intelligence: GS reports blowout Q3 earnings, operating margins expand 150 bps YoY!",trader_325
+2026-10-08T23:53:00+00:00,KO,Breaking: DOJ prepares civil antitrust lawsuit against KO over market dominance.,trader_109
+2026-10-09T00:03:00+00:00,NVDA,Flow: Wall Street analyst consensus downgrades NVDA citing valuation multiples.,trader_404
+2026-10-09T00:20:00+00:00,GOOGL,Alert: FDA grants approval for GOOGL's breakthrough medical therapy.,trader_376
+2026-10-09T00:31:00+00:00,AMZN,Flash: Hostile takeover bid rumored for AMZN regional competitor valued at $8.4B.,trader_345
+2026-10-09T00:36:00+00:00,PFE,Report: Escalating regional military conflict in Eastern Europe sparks energy supply concerns for PFE.,trader_455
+2026-10-09T00:53:00+00:00,XOM,Terminal Alert: Rating agency places XOM credit rating on negative watch citing high leverage.,trader_383
+2026-10-09T01:05:00+00:00,AMZN,Breaking: AMZN announces emergency management restructuring and operational efficiency drive.,trader_113
+2026-10-09T01:10:00+00:00,NVDA,Breaking: Hostile takeover bid rumored for NVDA regional competitor valued at $2.5B.,trader_931
+2026-10-09T01:24:00+00:00,WMT,Flow: Spreads widening significantly by 150 bps on WMT 5-year senior unsecured debt.,trader_900
+2026-10-09T01:36:00+00:00,JPM,Alert: Daily market wrap: trading volumes in JPM surge as sector rotates.,trader_860
+2026-10-09T01:48:00+00:00,GS,"SCOOP: Fed signals hawkish stance, higher rates putting pressure on bank margins for GS.",trader_656
+2026-10-09T01:57:00+00:00,NVDA,BofA Note: Reports of major ransomware cyber attack affecting NVDA internal enterprise databases.,trader_216
+2026-10-09T02:10:00+00:00,KO,Report: Unexpected 200 bps interest rate decision creates cross-asset volatility for KO.,trader_847
+2026-10-09T02:20:00+00:00,MSFT,Newswire: DOJ prepares civil antitrust lawsuit against MSFT over market dominance.,trader_427
+2026-10-09T02:27:00+00:00,AAPL,Intelligence: S&P and Moody's issue credit downgrade warning for AAPL leveraged loan portfolio.,trader_418
+2026-10-09T02:37:00+00:00,JPM,Report: Persistent CPI inflation and rising yield curve inversion compressing forward guidance for JPM.,trader_736
+2026-10-09T02:53:00+00:00,CVX,Alert: Hostile takeover bid rumored for CVX regional competitor valued at $8.4B.,trader_768
+2026-10-09T03:02:00+00:00,MSFT,SCOOP: Key semiconductor substrate shortage halts manufacturing lines at MSFT.,trader_385
+2026-10-09T03:17:00+00:00,CVX,Alert: Profit warning issued by CVX as operating costs surge in Q1.,trader_327
+2026-10-09T03:27:00+00:00,META,Breaking: Rumors spreading of sanctions hitting overseas subsidiaries of META.,trader_124
+2026-10-09T03:34:00+00:00,CVX,Desk Chat: Rumors of covenant breach and debt restructuring surrounding CVX joint venture.,trader_716
+2026-10-09T03:49:00+00:00,META,Report: META facing supply chain friction due to new export controls and tariff threats in Latin America.,trader_841
+2026-10-09T03:56:00+00:00,NVDA,Desk Chat: DOJ prepares civil antitrust lawsuit against NVDA over market dominance.,trader_372
+2026-10-09T04:05:00+00:00,AAPL,Market Watch: S&P and Moody's issue credit downgrade warning for AAPL leveraged loan portfolio.,trader_467
+2026-10-09T04:16:00+00:00,GOOGL,Update: GOOGL announces strategic buyout of key AI chip software vendor for $5.0B.,trader_928
+2026-10-09T04:34:00+00:00,WMT,Flash: Strong operating cash flow generation and $5.0B dividend increase announced by WMT.,trader_903
+2026-10-09T04:39:00+00:00,AAPL,Market Watch: AAPL facing supply chain friction due to new export controls and tariff threats in Middle East.,trader_573
+2026-10-09T04:53:00+00:00,GOOGL,Flash: GOOGL unveils next-generation enterprise AI platform with breakthrough performance.,trader_115
+2026-10-09T05:02:00+00:00,JNJ,Alert: Unexpected 50 bps interest rate decision creates cross-asset volatility for JNJ.,trader_315
+2026-10-09T05:13:00+00:00,GS,Alert: Strong operating cash flow generation and $3.8B dividend increase announced by GS.,trader_655
+2026-10-09T05:29:00+00:00,AAPL,Update: DOJ prepares civil antitrust lawsuit against AAPL over market dominance.,trader_615
+2026-10-09T05:35:00+00:00,XOM,Flow: Key semiconductor substrate shortage halts manufacturing lines at XOM.,trader_982
+2026-10-09T05:44:00+00:00,WMT,Headline: Strong operating cash flow generation and $1.2B dividend increase announced by WMT.,trader_895
+2026-10-09T05:58:00+00:00,BAC,Newswire: Unexpected 150 bps interest rate decision creates cross-asset volatility for BAC.,trader_467
+2026-10-09T06:12:00+00:00,GS,"Trading Desk: Gulf coast hurricane forces GS refinery shutdown, crude supplies tight.",trader_842
+2026-10-09T06:21:00+00:00,PFE,Update: Hostile takeover bid rumored for PFE regional competitor valued at $1.2B.,trader_534
+2026-10-09T06:29:00+00:00,CVX,Alert: Strong operating cash flow generation and $8.4B dividend increase announced by CVX.,trader_219
+2026-10-09T06:43:00+00:00,GS,Report: Rumors of covenant breach and debt restructuring surrounding GS joint venture.,trader_274
+2026-10-09T06:57:00+00:00,PFE,Update: Daily market wrap: trading volumes in PFE surge as sector rotates.,trader_714
+2026-10-09T07:04:00+00:00,WMT,Update: Heavy institutional call option buying spotted on WMT ahead of investor symposium.,trader_466
+2026-10-09T07:18:00+00:00,WMT,Breaking: Unexpected 75 bps interest rate decision creates cross-asset volatility for WMT.,trader_627
+2026-10-09T07:23:00+00:00,CVX,Trading Desk: Wall Street analyst consensus downgrades CVX citing valuation multiples.,trader_993
+2026-10-09T07:39:00+00:00,META,Intelligence: Daily market wrap: trading volumes in META surge as sector rotates.,trader_542
+2026-10-09T07:45:00+00:00,PFE,BofA Note: Heavy institutional call option buying spotted on PFE ahead of investor symposium.,trader_987
+2026-10-09T08:01:00+00:00,JNJ,BofA Note: Spreads widening significantly by 200 bps on JNJ 5-year senior unsecured debt.,trader_679
+2026-10-09T08:14:00+00:00,GS,Flash: Rating agency places GS credit rating on negative watch citing high leverage.,trader_791
+2026-10-09T08:25:00+00:00,KO,Flash: Strong operating cash flow generation and $8.4B dividend increase announced by KO.,trader_538
+2026-10-09T08:35:00+00:00,KO,"Alert: KO reports blowout Q4 earnings, operating margins expand 100 bps YoY!",trader_832
+2026-10-09T08:47:00+00:00,MSFT,Breaking: Daily market wrap: trading volumes in MSFT surge as sector rotates.,trader_515
+2026-10-09T08:52:00+00:00,JNJ,Update: Unexpected 100 bps interest rate decision creates cross-asset volatility for JNJ.,trader_434
+2026-10-09T09:06:00+00:00,JNJ,Flow: Daily market wrap: trading volumes in JNJ surge as sector rotates.,trader_569
+2026-10-09T09:18:00+00:00,AMZN,Intelligence: Hostile takeover bid rumored for AMZN regional competitor valued at $8.4B.,trader_386
+2026-10-09T09:24:00+00:00,WMT,Intelligence: WMT slashes FY forward revenue guidance citing slowing enterprise demand.,trader_435
+2026-10-09T09:38:00+00:00,CVX,Update: Rumors spreading of sanctions hitting overseas subsidiaries of CVX.,trader_905
+2026-10-09T09:51:00+00:00,JPM,BofA Note: S&P and Moody's issue credit downgrade warning for JPM leveraged loan portfolio.,trader_545
+2026-10-09T09:58:00+00:00,GS,SCOOP: Profit warning issued by GS as operating costs surge in Q1.,trader_735
+2026-10-09T10:11:00+00:00,WMT,Breaking: Heavy institutional call option buying spotted on WMT ahead of investor symposium.,trader_428
+2026-10-09T10:21:00+00:00,JPM,Report: Port strikes and freight rate spikes create major logistics bottlenecks for JPM.,trader_433
+2026-10-09T10:35:00+00:00,JPM,Flow: Rumors spreading of sanctions hitting overseas subsidiaries of JPM.,trader_199
+2026-10-09T10:48:00+00:00,KO,Terminal Alert: Rating agency places KO credit rating on negative watch citing high leverage.,trader_476
+2026-10-09T10:52:00+00:00,GS,Update: GS announces emergency management restructuring and operational efficiency drive.,trader_313
+2026-10-09T11:07:00+00:00,MSFT,Trading Desk: Spreads widening significantly by 150 bps on MSFT 5-year senior unsecured debt.,trader_750
+2026-10-09T11:20:00+00:00,XOM,Headline: S&P and Moody's issue credit downgrade warning for XOM leveraged loan portfolio.,trader_791
+2026-10-09T11:28:00+00:00,JPM,Intelligence: Reports of major ransomware cyber attack affecting JPM internal enterprise databases.,trader_696
+2026-10-09T11:42:00+00:00,GOOGL,Flash: GOOGL slashes FY forward revenue guidance citing slowing enterprise demand.,trader_499
+2026-10-09T11:53:00+00:00,GS,Alert: Macro headwinds and contraction in consumer spending weigh on GS revenue.,trader_996
+2026-10-09T12:05:00+00:00,NVDA,Trading Desk: Macro headwinds and contraction in consumer spending weigh on NVDA revenue.,trader_553
+2026-10-09T12:12:00+00:00,JNJ,Alert: Macro headwinds and contraction in consumer spending weigh on JNJ revenue.,trader_829
+2026-10-09T12:26:00+00:00,GOOGL,Desk Chat: Escalating regional military conflict in Latin America sparks energy supply concerns for GOOGL.,trader_851
+2026-10-09T12:34:00+00:00,AMZN,Market Watch: AMZN slashes FY forward revenue guidance citing slowing enterprise demand.,trader_807
+2026-10-09T12:49:00+00:00,WMT,Alert: Rumors spreading of sanctions hitting overseas subsidiaries of WMT.,trader_481
+2026-10-09T12:56:00+00:00,GOOGL,Report: Severe cloud outage at GOOGL disrupts critical financial transaction feeds.,trader_337
+2026-10-09T13:11:00+00:00,JPM,Breaking: Rumors of covenant breach and debt restructuring surrounding JPM joint venture.,trader_562
+2026-10-09T13:19:00+00:00,BAC,Flash: Wall Street analyst consensus downgrades BAC citing valuation multiples.,trader_459
+2026-10-09T13:26:00+00:00,GS,Desk Chat: Profit warning issued by GS as operating costs surge in Q1.,trader_450
+2026-10-09T13:37:00+00:00,NVDA,Market Watch: Spreads widening significantly by 50 bps on NVDA 5-year senior unsecured debt.,trader_125
+2026-10-09T13:52:00+00:00,GOOGL,Flow: S&P and Moody's issue credit downgrade warning for GOOGL leveraged loan portfolio.,trader_928
+2026-10-09T14:02:00+00:00,JNJ,Terminal Alert: S&P and Moody's issue credit downgrade warning for JNJ leveraged loan portfolio.,trader_383
+2026-10-09T14:14:00+00:00,BAC,BofA Note: Heavy institutional call option buying spotted on BAC ahead of investor symposium.,trader_492
+2026-10-09T14:24:00+00:00,PFE,Newswire: Heavy institutional call option buying spotted on PFE ahead of investor symposium.,trader_927
+2026-10-09T14:36:00+00:00,GOOGL,"Terminal Alert: GOOGL reports blowout Q1 earnings, operating margins expand 200 bps YoY!",trader_487
+2026-10-09T14:49:00+00:00,PFE,Report: Rating agency places PFE credit rating on negative watch citing high leverage.,trader_360
+2026-10-09T15:01:00+00:00,AAPL,Desk Chat: Rumors spreading of sanctions hitting overseas subsidiaries of AAPL.,trader_545
+2026-10-09T15:07:00+00:00,META,Flow: Key semiconductor substrate shortage halts manufacturing lines at META.,trader_475
+2026-10-09T15:21:00+00:00,GOOGL,Report: Rumors spreading of sanctions hitting overseas subsidiaries of GOOGL.,trader_695
+2026-10-09T15:30:00+00:00,PFE,Headline: Daily market wrap: trading volumes in PFE surge as sector rotates.,trader_302
+2026-10-09T15:41:00+00:00,AMZN,Alert: Port strikes and freight rate spikes create major logistics bottlenecks for AMZN.,trader_201
+2026-10-09T15:51:00+00:00,GOOGL,Update: FDA grants approval for GOOGL's breakthrough medical therapy.,trader_965
+2026-10-09T16:04:00+00:00,MSFT,Flow: S&P and Moody's issue credit downgrade warning for MSFT leveraged loan portfolio.,trader_160
+2026-10-09T16:11:00+00:00,JNJ,BofA Note: Daily market wrap: trading volumes in JNJ surge as sector rotates.,trader_735
+2026-10-09T16:23:00+00:00,CVX,Trading Desk: Key semiconductor substrate shortage halts manufacturing lines at CVX.,trader_294
+2026-10-09T16:35:00+00:00,KO,Breaking: Rumors of covenant breach and debt restructuring surrounding KO joint venture.,trader_520
+2026-10-09T16:46:00+00:00,MSFT,SCOOP: Wall Street analyst consensus downgrades MSFT citing valuation multiples.,trader_517
+2026-10-09T16:55:00+00:00,AAPL,Alert: DOJ prepares civil antitrust lawsuit against AAPL over market dominance.,trader_267
+2026-10-09T17:09:00+00:00,GS,SCOOP: Persistent CPI inflation and rising yield curve inversion compressing forward guidance for GS.,trader_219
+2026-10-09T17:18:00+00:00,AMZN,Market Watch: Reports of major ransomware cyber attack affecting AMZN internal enterprise databases.,trader_940
+2026-10-09T17:30:00+00:00,JNJ,Desk Chat: Spreads widening significantly by 25 bps on JNJ 5-year senior unsecured debt.,trader_291
+2026-10-09T17:43:00+00:00,JPM,Update: Key semiconductor substrate shortage halts manufacturing lines at JPM.,trader_730
+2026-10-09T17:51:00+00:00,BAC,BofA Note: BAC unveils next-generation enterprise AI platform with breakthrough performance.,trader_717
+2026-10-09T18:01:00+00:00,WMT,Report: Wall Street analyst consensus downgrades WMT citing valuation multiples.,trader_974
+2026-10-09T18:18:00+00:00,MSFT,Report: S&P and Moody's issue credit downgrade warning for MSFT leveraged loan portfolio.,trader_682
+2026-10-09T18:25:00+00:00,PFE,Intelligence: Profit warning issued by PFE as operating costs surge in Q2.,trader_515
+2026-10-09T18:36:00+00:00,MSFT,Flow: MSFT announces strategic buyout of key AI chip software vendor for $2.5B.,trader_930
+2026-10-09T18:46:00+00:00,GS,Market Watch: Strong operating cash flow generation and $3.8B dividend increase announced by GS.,trader_978
+2026-10-09T19:01:00+00:00,BAC,Breaking: Severe cloud outage at BAC disrupts critical financial transaction feeds.,trader_991
+2026-10-09T19:11:00+00:00,MSFT,Update: S&P and Moody's issue credit downgrade warning for MSFT leveraged loan portfolio.,trader_469
+2026-10-09T19:21:00+00:00,CVX,Desk Chat: CVX facing supply chain friction due to new export controls and tariff threats in Gulf Region.,trader_929
+2026-10-09T19:29:00+00:00,JPM,BofA Note: Rumors of covenant breach and debt restructuring surrounding JPM joint venture.,trader_262
+2026-10-09T19:41:00+00:00,KO,SCOOP: KO unveils next-generation enterprise AI platform with breakthrough performance.,trader_151
+2026-10-09T19:55:00+00:00,KO,Headline: Port strikes and freight rate spikes create major logistics bottlenecks for KO.,trader_457
+2026-10-09T20:04:00+00:00,PFE,Intelligence: Key semiconductor substrate shortage halts manufacturing lines at PFE.,trader_535
+2026-10-09T20:15:00+00:00,XOM,Headline: XOM announces emergency management restructuring and operational efficiency drive.,trader_932
+2026-10-09T20:28:00+00:00,GS,Headline: Port strikes and freight rate spikes create major logistics bottlenecks for GS.,trader_451
+2026-10-09T20:40:00+00:00,GS,Headline: Unexpected 75 bps interest rate decision creates cross-asset volatility for GS.,trader_892
+2026-10-09T20:46:00+00:00,JNJ,Intelligence: Reports of major ransomware cyber attack affecting JNJ internal enterprise databases.,trader_447
+2026-10-09T21:02:00+00:00,GS,Flow: Escalating regional military conflict in Eastern Europe sparks energy supply concerns for GS.,trader_491
+2026-10-09T21:12:00+00:00,XOM,BofA Note: Macro headwinds and contraction in consumer spending weigh on XOM revenue.,trader_823
+2026-10-09T21:23:00+00:00,JPM,"BofA Note: JPM reports blowout Q1 earnings, operating margins expand 25 bps YoY!",trader_716
+2026-10-09T21:37:00+00:00,GOOGL,Market Watch: Spreads widening significantly by 150 bps on GOOGL 5-year senior unsecured debt.,trader_727
+2026-10-09T21:42:00+00:00,GOOGL,Report: Hostile takeover bid rumored for GOOGL regional competitor valued at $3.8B.,trader_547
+2026-10-09T21:56:00+00:00,KO,"Trading Desk: KO reports blowout Q3 earnings, operating margins expand 100 bps YoY!",trader_977
+2026-10-09T22:06:00+00:00,GOOGL,"SCOOP: GOOGL reports blowout Q1 earnings, operating margins expand 100 bps YoY!",trader_329
+2026-10-09T22:14:00+00:00,WMT,"Headline: WMT reports blowout Q1 earnings, operating margins expand 50 bps YoY!",trader_402
+2026-10-09T22:31:00+00:00,CVX,"Flash: CVX reports blowout Q4 earnings, operating margins expand 50 bps YoY!",trader_815
+2026-10-09T22:43:00+00:00,MSFT,Flow: MSFT announces strategic buyout of key AI chip software vendor for $20.0B.,trader_562
+2026-10-09T22:52:00+00:00,CVX,Headline: Escalating regional military conflict in Middle East sparks energy supply concerns for CVX.,trader_627
+2026-10-09T23:01:00+00:00,BAC,Trading Desk: S&P and Moody's issue credit downgrade warning for BAC leveraged loan portfolio.,trader_106
+2026-10-09T23:09:00+00:00,XOM,BofA Note: Escalating regional military conflict in Latin America sparks energy supply concerns for XOM.,trader_244
+2026-10-09T23:27:00+00:00,WMT,Update: Unexpected 75 bps interest rate decision creates cross-asset volatility for WMT.,trader_557
+2026-10-09T23:37:00+00:00,CVX,Flow: Heavy institutional call option buying spotted on CVX ahead of investor symposium.,trader_552
+2026-10-09T23:49:00+00:00,AMZN,Newswire: Rumors spreading of sanctions hitting overseas subsidiaries of AMZN.,trader_141
+2026-10-09T23:58:00+00:00,MSFT,Report: Severe cloud outage at MSFT disrupts critical financial transaction feeds.,trader_939
+2026-10-10T00:08:00+00:00,MSFT,Flash: Escalating regional military conflict in Asia-Pacific sparks energy supply concerns for MSFT.,trader_216
+2026-10-10T00:16:00+00:00,MSFT,Intelligence: MSFT unveils next-generation enterprise AI platform with breakthrough performance.,trader_483
+2026-10-10T00:33:00+00:00,MSFT,Terminal Alert: Hostile takeover bid rumored for MSFT regional competitor valued at $8.4B.,trader_852
+2026-10-10T00:39:00+00:00,KO,"SCOOP: Fed signals hawkish stance, higher rates putting pressure on bank margins for KO.",trader_142
+2026-10-10T00:55:00+00:00,GOOGL,Alert: Macro headwinds and contraction in consumer spending weigh on GOOGL revenue.,trader_309
+2026-10-10T00:59:00+00:00,GS,Desk Chat: GS unveils next-generation enterprise AI platform with breakthrough performance.,trader_629
+2026-10-10T01:12:00+00:00,XOM,Terminal Alert: Reports of major ransomware cyber attack affecting XOM internal enterprise databases.,trader_994
+2026-10-10T01:23:00+00:00,XOM,Headline: Rumors spreading of sanctions hitting overseas subsidiaries of XOM.,trader_988
+2026-10-10T01:35:00+00:00,NVDA,Headline: Unexpected 50 bps interest rate decision creates cross-asset volatility for NVDA.,trader_639
+2026-10-10T01:48:00+00:00,CVX,Alert: CVX announces emergency management restructuring and operational efficiency drive.,trader_987
+2026-10-10T01:59:00+00:00,AMZN,SCOOP: Profit warning issued by AMZN as operating costs surge in Q3.,trader_853
+2026-10-10T02:06:00+00:00,KO,Intelligence: Persistent CPI inflation and rising yield curve inversion compressing forward guidance for KO.,trader_344
+2026-10-10T02:23:00+00:00,BAC,Update: Hostile takeover bid rumored for BAC regional competitor valued at $3.8B.,trader_193
+2026-10-10T02:32:00+00:00,XOM,SCOOP: XOM announces emergency management restructuring and operational efficiency drive.,trader_453
+2026-10-10T02:40:00+00:00,CVX,Update: Hostile takeover bid rumored for CVX regional competitor valued at $20.0B.,trader_843
+2026-10-10T02:55:00+00:00,CVX,Breaking: CVX announces strategic buyout of key AI chip software vendor for $20.0B.,trader_775
+2026-10-10T03:00:00+00:00,JPM,Update: Persistent CPI inflation and rising yield curve inversion compressing forward guidance for JPM.,trader_389
+2026-10-10T03:14:00+00:00,AMZN,Intelligence: Strong operating cash flow generation and $1.2B dividend increase announced by AMZN.,trader_586
+2026-10-10T03:24:00+00:00,CVX,Flash: CVX announces strategic buyout of key AI chip software vendor for $8.4B.,trader_293
+2026-10-10T03:40:00+00:00,WMT,Terminal Alert: WMT announces emergency management restructuring and operational efficiency drive.,trader_759
+2026-10-10T03:48:00+00:00,GS,"BofA Note: Fed signals hawkish stance, higher rates putting pressure on bank margins for GS.",trader_215
+2026-10-10T03:55:00+00:00,BAC,"Headline: Fed signals hawkish stance, higher rates putting pressure on bank margins for BAC.",trader_298
+2026-10-10T04:13:00+00:00,KO,"Alert: Gulf coast hurricane forces KO refinery shutdown, crude supplies tight.",trader_825
+2026-10-10T04:23:00+00:00,NVDA,Update: Unexpected 200 bps interest rate decision creates cross-asset volatility for NVDA.,trader_871
+2026-10-10T04:29:00+00:00,GS,Terminal Alert: DOJ prepares civil antitrust lawsuit against GS over market dominance.,trader_658
+2026-10-10T04:41:00+00:00,KO,"Desk Chat: KO reports blowout Q4 earnings, operating margins expand 50 bps YoY!",trader_874
+2026-10-10T04:50:00+00:00,META,BofA Note: Severe cloud outage at META disrupts critical financial transaction feeds.,trader_672
+2026-10-10T05:05:00+00:00,AMZN,Breaking: Severe cloud outage at AMZN disrupts critical financial transaction feeds.,trader_842
+2026-10-10T05:12:00+00:00,KO,Report: Unexpected 75 bps interest rate decision creates cross-asset volatility for KO.,trader_766
+2026-10-10T05:25:00+00:00,PFE,BofA Note: S&P and Moody's issue credit downgrade warning for PFE leveraged loan portfolio.,trader_570
+2026-10-10T05:38:00+00:00,CVX,Update: Unexpected 25 bps interest rate decision creates cross-asset volatility for CVX.,trader_119
+2026-10-10T05:48:00+00:00,JPM,Trading Desk: JPM announces strategic buyout of key AI chip software vendor for $1.2B.,trader_886
+2026-10-10T05:57:00+00:00,KO,"Flash: Gulf coast hurricane forces KO refinery shutdown, crude supplies tight.",trader_361
+2026-10-10T06:12:00+00:00,MSFT,SCOOP: MSFT announces strategic buyout of key AI chip software vendor for $8.4B.,trader_618
+2026-10-10T06:22:00+00:00,XOM,SCOOP: Port strikes and freight rate spikes create major logistics bottlenecks for XOM.,trader_704
+2026-10-10T06:34:00+00:00,GS,Update: Rumors of covenant breach and debt restructuring surrounding GS joint venture.,trader_213
+2026-10-10T06:41:00+00:00,JPM,Newswire: S&P and Moody's issue credit downgrade warning for JPM leveraged loan portfolio.,trader_274
+2026-10-10T06:58:00+00:00,MSFT,Desk Chat: Unexpected 200 bps interest rate decision creates cross-asset volatility for MSFT.,trader_408
+2026-10-10T07:09:00+00:00,KO,Alert: Unexpected 25 bps interest rate decision creates cross-asset volatility for KO.,trader_570
+2026-10-10T07:16:00+00:00,GS,Newswire: Rating agency places GS credit rating on negative watch citing high leverage.,trader_778
+2026-10-10T07:31:00+00:00,MSFT,Intelligence: Regulators open antitrust investigation into MSFT's planned cloud acquisition.,trader_517
+2026-10-10T07:39:00+00:00,GS,Flow: Daily market wrap: trading volumes in GS surge as sector rotates.,trader_361
+2026-10-10T07:46:00+00:00,KO,Intelligence: Unexpected 150 bps interest rate decision creates cross-asset volatility for KO.,trader_431
+2026-10-10T08:03:00+00:00,CVX,Newswire: Unexpected 50 bps interest rate decision creates cross-asset volatility for CVX.,trader_667
+2026-10-10T08:10:00+00:00,BAC,Desk Chat: Rating agency places BAC credit rating on negative watch citing high leverage.,trader_404
+2026-10-10T08:22:00+00:00,AMZN,Market Watch: Escalating regional military conflict in Gulf Region sparks energy supply concerns for AMZN.,trader_144
+2026-10-10T08:31:00+00:00,PFE,Flow: Wall Street analyst consensus downgrades PFE citing valuation multiples.,trader_797
+2026-10-10T08:42:00+00:00,CVX,Intelligence: Rating agency places CVX credit rating on negative watch citing high leverage.,trader_808
+2026-10-10T08:56:00+00:00,AMZN,Breaking: Reports of major ransomware cyber attack affecting AMZN internal enterprise databases.,trader_190
+2026-10-10T09:05:00+00:00,CVX,Market Watch: Reports of major ransomware cyber attack affecting CVX internal enterprise databases.,trader_548
+2026-10-10T09:15:00+00:00,GS,Flow: Regulators open antitrust investigation into GS's planned cloud acquisition.,trader_598
+2026-10-10T09:30:00+00:00,PFE,Trading Desk: Escalating regional military conflict in Eastern Europe sparks energy supply concerns for PFE.,trader_249
+2026-10-10T09:41:00+00:00,GOOGL,Flow: GOOGL slashes FY forward revenue guidance citing slowing enterprise demand.,trader_987
+2026-10-10T09:50:00+00:00,GOOGL,Terminal Alert: Regulators open antitrust investigation into GOOGL's planned cloud acquisition.,trader_507
+2026-10-10T10:03:00+00:00,KO,"Market Watch: KO reports blowout Q2 earnings, operating margins expand 100 bps YoY!",trader_454
+2026-10-10T10:16:00+00:00,MSFT,"Desk Chat: Fed signals hawkish stance, higher rates putting pressure on bank margins for MSFT.",trader_671
+2026-10-10T10:25:00+00:00,AAPL,Trading Desk: AAPL unveils next-generation enterprise AI platform with breakthrough performance.,trader_496
+2026-10-10T10:36:00+00:00,JNJ,Market Watch: JNJ announces strategic buyout of key AI chip software vendor for $2.5B.,trader_569
+2026-10-10T10:46:00+00:00,NVDA,SCOOP: S&P and Moody's issue credit downgrade warning for NVDA leveraged loan portfolio.,trader_429
+2026-10-10T11:00:00+00:00,XOM,Intelligence: Hostile takeover bid rumored for XOM regional competitor valued at $3.8B.,trader_734
+2026-10-10T11:05:00+00:00,BAC,Flash: Hostile takeover bid rumored for BAC regional competitor valued at $12.5B.,trader_258
+2026-10-10T11:22:00+00:00,NVDA,Headline: Rumors spreading of sanctions hitting overseas subsidiaries of NVDA.,trader_197
+2026-10-10T11:28:00+00:00,CVX,Intelligence: Port strikes and freight rate spikes create major logistics bottlenecks for CVX.,trader_159
+2026-10-10T11:44:00+00:00,PFE,Alert: Rumors spreading of sanctions hitting overseas subsidiaries of PFE.,trader_159
+2026-10-10T11:51:00+00:00,KO,Trading Desk: KO announces strategic buyout of key AI chip software vendor for $12.5B.,trader_258
+2026-10-10T12:00:00+00:00,JPM,Headline: Key semiconductor substrate shortage halts manufacturing lines at JPM.,trader_231
+2026-10-10T12:13:00+00:00,XOM,BofA Note: Hostile takeover bid rumored for XOM regional competitor valued at $3.8B.,trader_128
+2026-10-10T12:23:00+00:00,PFE,"SCOOP: PFE reports blowout Q2 earnings, operating margins expand 200 bps YoY!",trader_623
+2026-10-10T12:39:00+00:00,GS,Flow: Hostile takeover bid rumored for GS regional competitor valued at $5.0B.,trader_369
+2026-10-10T12:46:00+00:00,CVX,Trading Desk: CVX unveils next-generation enterprise AI platform with breakthrough performance.,trader_887
+2026-10-10T12:55:00+00:00,MSFT,Newswire: FDA grants approval for MSFT's breakthrough medical therapy.,trader_784
+2026-10-10T13:10:00+00:00,WMT,Breaking: Wall Street analyst consensus downgrades WMT citing valuation multiples.,trader_441
+2026-10-10T13:18:00+00:00,JNJ,Flow: Strong operating cash flow generation and $20.0B dividend increase announced by JNJ.,trader_447
+2026-10-10T13:32:00+00:00,NVDA,Trading Desk: NVDA announces emergency management restructuring and operational efficiency drive.,trader_369
+2026-10-10T13:41:00+00:00,XOM,Flow: Persistent CPI inflation and rising yield curve inversion compressing forward guidance for XOM.,trader_652
+2026-10-10T13:55:00+00:00,CVX,Terminal Alert: DOJ prepares civil antitrust lawsuit against CVX over market dominance.,trader_348
+2026-10-10T14:00:00+00:00,JNJ,Update: Rumors spreading of sanctions hitting overseas subsidiaries of JNJ.,trader_709
+2026-10-10T14:17:00+00:00,MSFT,Intelligence: Port strikes and freight rate spikes create major logistics bottlenecks for MSFT.,trader_152
+2026-10-10T14:26:00+00:00,NVDA,Report: NVDA announces strategic buyout of key AI chip software vendor for $5.0B.,trader_676
+2026-10-10T14:37:00+00:00,JNJ,Update: Rating agency places JNJ credit rating on negative watch citing high leverage.,trader_283
+2026-10-10T14:44:00+00:00,META,"Update: Fed signals hawkish stance, higher rates putting pressure on bank margins for META.",trader_135
+2026-10-10T14:57:00+00:00,WMT,Alert: DOJ prepares civil antitrust lawsuit against WMT over market dominance.,trader_806
+2026-10-10T15:06:00+00:00,NVDA,Intelligence: Wall Street analyst consensus downgrades NVDA citing valuation multiples.,trader_212
+2026-10-10T15:23:00+00:00,AMZN,Terminal Alert: AMZN slashes FY forward revenue guidance citing slowing enterprise demand.,trader_992
+2026-10-10T15:28:00+00:00,GOOGL,Intelligence: GOOGL facing supply chain friction due to new export controls and tariff threats in Asia-Pacific.,trader_882
+2026-10-10T15:42:00+00:00,WMT,Intelligence: Regulators open antitrust investigation into WMT's planned cloud acquisition.,trader_985
+2026-10-10T15:56:00+00:00,JPM,Headline: JPM announces emergency management restructuring and operational efficiency drive.,trader_345
+2026-10-10T16:06:00+00:00,JPM,Alert: Heavy institutional call option buying spotted on JPM ahead of investor symposium.,trader_368
+2026-10-10T16:13:00+00:00,WMT,Desk Chat: DOJ prepares civil antitrust lawsuit against WMT over market dominance.,trader_838
+2026-10-10T16:28:00+00:00,GOOGL,"Report: GOOGL reports blowout Q1 earnings, operating margins expand 25 bps YoY!",trader_944
+2026-10-10T16:40:00+00:00,AAPL,Alert: Hostile takeover bid rumored for AAPL regional competitor valued at $1.2B.,trader_304
+2026-10-10T16:47:00+00:00,META,Terminal Alert: META slashes FY forward revenue guidance citing slowing enterprise demand.,trader_430
+2026-10-10T16:58:00+00:00,PFE,Trading Desk: Rumors of covenant breach and debt restructuring surrounding PFE joint venture.,trader_337
+2026-10-10T17:14:00+00:00,NVDA,SCOOP: NVDA slashes FY forward revenue guidance citing slowing enterprise demand.,trader_746
+2026-10-10T17:23:00+00:00,AAPL,Newswire: S&P and Moody's issue credit downgrade warning for AAPL leveraged loan portfolio.,trader_196
+2026-10-10T17:29:00+00:00,META,SCOOP: Rumors of covenant breach and debt restructuring surrounding META joint venture.,trader_681
+2026-10-10T17:45:00+00:00,AMZN,Newswire: FDA grants approval for AMZN's breakthrough medical therapy.,trader_553
+2026-10-10T17:58:00+00:00,CVX,Intelligence: Escalating regional military conflict in Eastern Europe sparks energy supply concerns for CVX.,trader_246
+2026-10-10T18:06:00+00:00,MSFT,Trading Desk: S&P and Moody's issue credit downgrade warning for MSFT leveraged loan portfolio.,trader_850
+2026-10-10T18:13:00+00:00,BAC,Flash: Reports of major ransomware cyber attack affecting BAC internal enterprise databases.,trader_683
+2026-10-10T18:25:00+00:00,XOM,Flash: Strong operating cash flow generation and $12.5B dividend increase announced by XOM.,trader_397
+2026-10-10T18:38:00+00:00,AAPL,Desk Chat: Regulators open antitrust investigation into AAPL's planned cloud acquisition.,trader_398
+2026-10-10T18:49:00+00:00,CVX,Report: S&P and Moody's issue credit downgrade warning for CVX leveraged loan portfolio.,trader_713
+2026-10-10T19:01:00+00:00,NVDA,Report: NVDA unveils next-generation enterprise AI platform with breakthrough performance.,trader_463
+2026-10-10T19:09:00+00:00,AAPL,Headline: Daily market wrap: trading volumes in AAPL surge as sector rotates.,trader_601
+2026-10-10T19:26:00+00:00,PFE,Flow: PFE announces emergency management restructuring and operational efficiency drive.,trader_445
+2026-10-10T19:30:00+00:00,CVX,SCOOP: Spreads widening significantly by 50 bps on CVX 5-year senior unsecured debt.,trader_837
+2026-10-10T19:44:00+00:00,NVDA,Desk Chat: Hostile takeover bid rumored for NVDA regional competitor valued at $12.5B.,trader_319
+2026-10-10T19:57:00+00:00,WMT,BofA Note: Key semiconductor substrate shortage halts manufacturing lines at WMT.,trader_687
+2026-10-10T20:05:00+00:00,XOM,Newswire: Wall Street analyst consensus downgrades XOM citing valuation multiples.,trader_819
+2026-10-10T20:19:00+00:00,KO,Desk Chat: Severe cloud outage at KO disrupts critical financial transaction feeds.,trader_464
+2026-10-10T20:25:00+00:00,XOM,Desk Chat: Wall Street analyst consensus downgrades XOM citing valuation multiples.,trader_644
+2026-10-10T20:40:00+00:00,CVX,Breaking: Spreads widening significantly by 100 bps on CVX 5-year senior unsecured debt.,trader_746
+2026-10-10T20:54:00+00:00,GOOGL,Report: GOOGL unveils next-generation enterprise AI platform with breakthrough performance.,trader_737
+2026-10-10T20:59:00+00:00,KO,BofA Note: DOJ prepares civil antitrust lawsuit against KO over market dominance.,trader_772
+2026-10-10T21:13:00+00:00,META,Alert: Heavy institutional call option buying spotted on META ahead of investor symposium.,trader_178
+2026-10-10T21:21:00+00:00,META,Market Watch: META facing supply chain friction due to new export controls and tariff threats in Eastern Europe.,trader_647
+2026-10-10T21:31:00+00:00,WMT,BofA Note: Regulators open antitrust investigation into WMT's planned cloud acquisition.,trader_613
+2026-10-10T21:42:00+00:00,JPM,Alert: JPM unveils next-generation enterprise AI platform with breakthrough performance.,trader_189
+2026-10-10T21:59:00+00:00,JNJ,Desk Chat: Profit warning issued by JNJ as operating costs surge in Q2.,trader_281
+2026-10-10T22:09:00+00:00,JNJ,Intelligence: JNJ announces strategic buyout of key AI chip software vendor for $1.2B.,trader_402
+2026-10-10T22:16:00+00:00,CVX,Flow: Regulators open antitrust investigation into CVX's planned cloud acquisition.,trader_813
+2026-10-10T22:27:00+00:00,GOOGL,Newswire: GOOGL facing supply chain friction due to new export controls and tariff threats in Asia-Pacific.,trader_973
+2026-10-10T22:43:00+00:00,AMZN,Alert: AMZN announces emergency management restructuring and operational efficiency drive.,trader_196
+2026-10-10T22:53:00+00:00,CVX,Flash: Macro headwinds and contraction in consumer spending weigh on CVX revenue.,trader_341
+2026-10-10T23:06:00+00:00,JNJ,Flow: JNJ unveils next-generation enterprise AI platform with breakthrough performance.,trader_386
+2026-10-10T23:12:00+00:00,WMT,Breaking: Unexpected 50 bps interest rate decision creates cross-asset volatility for WMT.,trader_430
+2026-10-10T23:21:00+00:00,XOM,Intelligence: Regulators open antitrust investigation into XOM's planned cloud acquisition.,trader_298
+2026-10-10T23:35:00+00:00,NVDA,Alert: NVDA slashes FY forward revenue guidance citing slowing enterprise demand.,trader_449
+2026-10-10T23:47:00+00:00,WMT,BofA Note: WMT slashes FY forward revenue guidance citing slowing enterprise demand.,trader_431
+2026-10-11T00:00:00+00:00,GOOGL,Market Watch: Severe cloud outage at GOOGL disrupts critical financial transaction feeds.,trader_213
+2026-10-11T00:07:00+00:00,JNJ,Report: Rating agency places JNJ credit rating on negative watch citing high leverage.,trader_817
+2026-10-11T00:17:00+00:00,GOOGL,Alert: Profit warning issued by GOOGL as operating costs surge in Q4.,trader_451
+2026-10-11T00:33:00+00:00,JPM,Headline: JPM announces strategic buyout of key AI chip software vendor for $3.8B.,trader_422
+2026-10-11T00:41:00+00:00,META,Intelligence: META facing supply chain friction due to new export controls and tariff threats in Gulf Region.,trader_212
+2026-10-11T00:56:00+00:00,BAC,Newswire: Rumors spreading of sanctions hitting overseas subsidiaries of BAC.,trader_752
+2026-10-11T01:07:00+00:00,NVDA,Flash: Daily market wrap: trading volumes in NVDA surge as sector rotates.,trader_573
+2026-10-11T01:14:00+00:00,WMT,"Market Watch: Fed signals hawkish stance, higher rates putting pressure on bank margins for WMT.",trader_820
+2026-10-11T01:29:00+00:00,JPM,Flash: Escalating regional military conflict in Middle East sparks energy supply concerns for JPM.,trader_496
+2026-10-11T01:36:00+00:00,XOM,Terminal Alert: XOM announces strategic buyout of key AI chip software vendor for $2.5B.,trader_580
+2026-10-11T01:45:00+00:00,WMT,Intelligence: Reports of major ransomware cyber attack affecting WMT internal enterprise databases.,trader_323
+2026-10-11T02:02:00+00:00,META,Market Watch: META slashes FY forward revenue guidance citing slowing enterprise demand.,trader_790
+2026-10-11T02:12:00+00:00,KO,SCOOP: Heavy institutional call option buying spotted on KO ahead of investor symposium.,trader_340
+2026-10-11T02:19:00+00:00,WMT,Report: WMT facing supply chain friction due to new export controls and tariff threats in Asia-Pacific.,trader_656
+2026-10-11T02:29:00+00:00,GOOGL,Trading Desk: Profit warning issued by GOOGL as operating costs surge in Q4.,trader_567
+2026-10-11T02:44:00+00:00,GOOGL,Terminal Alert: Escalating regional military conflict in Eastern Europe sparks energy supply concerns for GOOGL.,trader_279
+2026-10-11T02:55:00+00:00,GOOGL,Market Watch: GOOGL announces emergency management restructuring and operational efficiency drive.,trader_650

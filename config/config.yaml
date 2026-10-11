@@ -1,0 +1,183 @@
+# ==============================================================================
+# RiskPulse Central Configuration
+# All model parameters, ticker universes, weights, and ingestion thresholds.
+# ZERO magic numbers in application code.
+# ==============================================================================
+
+app:
+  name: "RiskPulse"
+  version: "0.1.0"
+  env: "development"
+  log_level: "INFO"
+
+# ------------------------------------------------------------------------------
+# Mock Index Universe (15 S&P 100 Companies across diverse sectors)
+# Base weights sum to 1.0 (equal weighting: 1 / 15 ≈ 0.066667)
+# ------------------------------------------------------------------------------
+tickers:
+  AAPL:
+    name: "Apple Inc."
+    sector: "Information Technology"
+    base_weight: 0.066667
+    aliases: ["Apple", "AAPL", "$AAPL", "iPhone", "MacBook", "Tim Cook"]
+  MSFT:
+    name: "Microsoft Corporation"
+    sector: "Information Technology"
+    base_weight: 0.066667
+    aliases: ["Microsoft", "MSFT", "$MSFT", "Azure", "Windows", "Satya Nadella"]
+  AMZN:
+    name: "Amazon.com Inc."
+    sector: "Consumer Discretionary"
+    base_weight: 0.066667
+    aliases: ["Amazon", "AMZN", "$AMZN", "AWS", "Andy Jassy"]
+  GOOGL:
+    name: "Alphabet Inc."
+    sector: "Communication Services"
+    base_weight: 0.066667
+    aliases: ["Alphabet", "Google", "GOOGL", "GOOG", "$GOOGL", "Sundar Pichai"]
+  NVDA:
+    name: "NVIDIA Corporation"
+    sector: "Information Technology"
+    base_weight: 0.066667
+    aliases: ["Nvidia", "NVIDIA", "NVDA", "$NVDA", "Jensen Huang", "GeForce"]
+  META:
+    name: "Meta Platforms Inc."
+    sector: "Communication Services"
+    base_weight: 0.066667
+    aliases: ["Meta", "Facebook", "META", "$META", "Instagram", "Mark Zuckerberg"]
+  JPM:
+    name: "JPMorgan Chase & Co."
+    sector: "Financials"
+    base_weight: 0.066667
+    aliases: ["JPMorgan", "JPMorgan Chase", "JPM", "$JPM", "Jamie Dimon"]
+  BAC:
+    name: "Bank of America Corp."
+    sector: "Financials"
+    base_weight: 0.066667
+    aliases: ["Bank of America", "BofA", "BAC", "$BAC", "Brian Moynihan"]
+  GS:
+    name: "Goldman Sachs Group Inc."
+    sector: "Financials"
+    base_weight: 0.066667
+    aliases: ["Goldman Sachs", "Goldman", "GS", "$GS", "David Solomon"]
+  XOM:
+    name: "Exxon Mobil Corporation"
+    sector: "Energy"
+    base_weight: 0.066667
+    aliases: ["ExxonMobil", "Exxon Mobil", "Exxon", "XOM", "$XOM", "Darren Woods"]
+  CVX:
+    name: "Chevron Corporation"
+    sector: "Energy"
+    base_weight: 0.066667
+    aliases: ["Chevron", "CVX", "$CVX", "Mike Wirth"]
+  JNJ:
+    name: "Johnson & Johnson"
+    sector: "Health Care"
+    base_weight: 0.066667
+    aliases: ["Johnson & Johnson", "J&J", "JNJ", "$JNJ"]
+  PFE:
+    name: "Pfizer Inc."
+    sector: "Health Care"
+    base_weight: 0.066667
+    aliases: ["Pfizer", "PFE", "$PFE", "Albert Bourla"]
+  WMT:
+    name: "Walmart Inc."
+    sector: "Consumer Staples"
+    base_weight: 0.066667
+    aliases: ["Walmart", "WMT", "$WMT", "Doug McMillon"]
+  KO:
+    name: "The Coca-Cola Company"
+    sector: "Consumer Staples"
+    base_weight: 0.066667
+    aliases: ["Coca-Cola", "Coke", "KO", "$KO", "James Quincey"]
+
+# ------------------------------------------------------------------------------
+# Data Ingestion Sources & Settings
+# ------------------------------------------------------------------------------
+sources:
+  gdelt:
+    enabled: true
+    query_url: "https://api.gdeltproject.org/api/v2/doc/doc"
+    max_records: 50
+    timespan: "24h"
+    timeout_sec: 10
+  rss:
+    enabled: true
+    timeout_sec: 8
+    feeds:
+      - name: "Yahoo Finance Top Stories"
+        url: "https://finance.yahoo.com/news/rssindex"
+        source_type: "news"
+      - name: "CNBC Finance"
+        url: "https://search.cnbc.com/rs/search/combinedlist/view.xml?partnerId=wrss01&id=10000664"
+        source_type: "news"
+      - name: "SEC Press Releases"
+        url: "https://www.sec.gov/news/pressreleases.rss"
+        source_type: "news"
+  newsapi:
+    enabled: false  # Auto-enabled if NEWSAPI_KEY environment variable is present
+    page_size: 25
+  social:
+    replay_file: "data/tweets_sample.jsonl"
+    replay_speed_multiplier: 1.0
+    reddit_enabled: false
+    stocktwits_enabled: false
+
+# ------------------------------------------------------------------------------
+# Sentiment Analysis Engine
+# ------------------------------------------------------------------------------
+sentiment:
+  backend: "finbert"            # Options: 'finbert' | 'vader'
+  model_name: "ProsusAI/finbert"
+  neutral_band: 0.15           # Sentiment scores within [-0.15, 0.15] are tagged NEUTRAL
+  batch_size: 16
+  max_length: 128
+  device: "cpu"                # 'cpu' or 'cuda'
+
+# ------------------------------------------------------------------------------
+# Multi-Factor Impact Scoring Model
+# impact_score = 1.0 + 9.0 * [w_prior*event + w_sent*|sentiment| + w_kw*keywords + w_src*credibility + w_corr*corroboration]
+# ------------------------------------------------------------------------------
+impact:
+  weights:
+    event_prior: 0.40
+    sentiment: 0.25
+    keywords: 0.15
+    source: 0.10
+    corroboration: 0.10
+  source_credibility:
+    reuters: 1.00
+    bloomberg: 1.00
+    ft: 0.95
+    sec_gov: 1.00
+    cnbc: 0.85
+    yahoo_finance: 0.80
+    gdelt: 0.75
+    newsapi: 0.70
+    reddit: 0.45
+    stocktwits: 0.45
+    twitter: 0.40
+    unknown: 0.50
+
+# ------------------------------------------------------------------------------
+# Module B: Wholesale Banking Stress-Testing
+# ------------------------------------------------------------------------------
+stress:
+  trigger_threshold: 7.0       # Only events with impact_score >= 7.0 trigger stress evaluation
+  severity_scale: "impact/10"   # Linear factor scaling from 0.7 to 1.0
+  exposure_link_bonus: 0.5     # Additional impact boost when direct portfolio counterparty hit
+
+# ------------------------------------------------------------------------------
+# Module A: Tactical Rebalancing Engine
+# ------------------------------------------------------------------------------
+rebalancer:
+  alpha: 0.5                   # Sensitivity factor of sentiment to weight shift
+  kappa: 1.0                   # Normalization constant
+  decay_lambda_per_hour: 0.05  # Exponential time-decay rate for old signals
+  min_weight: 0.01             # Minimum position bound (1%)
+  max_weight: 0.15             # Maximum position bound (15%)
+  turnover_cap: 0.10           # Maximum allowed one-period total portfolio turnover (10%)
+  no_trade_band: 0.0025        # Trades smaller than 25 bps are ignored to limit friction
+  social_weight: 0.60          # Discount factor for social signals vs news
+  cost_bps: 10.0               # Transaction friction in bps per unit turnover
+

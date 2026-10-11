@@ -1,0 +1,295 @@
+# ==============================================================================
+# RiskPulse Event Classification Taxonomy & Weighted Pattern Lexicon
+# 12 Mutually Exclusive Categorical Risk Events
+# ==============================================================================
+
+events:
+  Geopolitical:
+    prior: 0.80
+    prior_severity: 0.80
+    description: "Geopolitical conflict, international sanctions, military invasion, war, missile attacks, territorial disputes, and trade embargoes"
+    default_shock_scenario: "geopolitical_escalation"
+    patterns:
+      sanction: 3.0
+      sanctions: 3.0
+      invasion: 3.0
+      invade: 2.8
+      missile: 2.8
+      missiles: 2.8
+      war: 2.5
+      military: 2.2
+      ceasefire: 2.5
+      "tariff war": 2.8
+      tariffs: 2.2
+      embargo: 2.8
+      "strait of hormuz": 3.0
+      taiwan: 2.2
+      blockade: 2.6
+      airstrike: 2.8
+      "armed conflict": 2.8
+      geopolitical: 2.5
+      retaliation: 2.0
+      troops: 2.0
+
+  Credit Event:
+    prior: 0.85
+    prior_severity: 0.85
+    description: "Corporate or sovereign debt default, credit rating downgrade to junk, bankruptcy, debt restructuring, CDS spread blowout, and insolvency"
+    default_shock_scenario: "credit_spread_blowout"
+    patterns:
+      default: 3.0
+      defaults: 3.0
+      defaulted: 3.0
+      downgrade: 3.0
+      downgrades: 3.0
+      downgraded: 3.0
+      bankruptcy: 3.0
+      "chapter 11": 3.0
+      insolvency: 3.0
+      insolvent: 3.0
+      "covenant breach": 3.0
+      restructuring: 2.5
+      "write-off": 2.6
+      writeoff: 2.6
+      "junk status": 2.8
+      "credit distress": 2.8
+      "margin call": 2.6
+      nonpayment: 2.8
+      "debt distress": 2.8
+      "credit rating cut": 3.0
+
+  Macroeconomic:
+    prior: 0.70
+    prior_severity: 0.70
+    description: "Broad economic indicators, recession fears, CPI inflation, stagflation, unemployment spikes, GDP contraction, and yield curve inversion"
+    default_shock_scenario: "macro_stagflation"
+    patterns:
+      recession: 3.0
+      recessionary: 2.8
+      inflation: 2.8
+      cpi: 2.8
+      stagflation: 3.0
+      "gdp contraction": 3.0
+      "gdp fell": 2.6
+      "unemployment spike": 2.8
+      unemployment: 2.0
+      "yield curve inversion": 3.0
+      "debt ceiling": 2.8
+      hyperinflation: 3.0
+      deflation: 2.5
+      "economic slowdown": 2.5
+      "macro headwind": 2.4
+      consumer-price-index: 2.6
+      "economic growth slows": 2.5
+      "labor market weakens": 2.4
+
+  Monetary Policy:
+    prior: 0.78
+    prior_severity: 0.78
+
+    description: "Central bank interest rate decisions, FOMC announcements, rate hikes, rate cuts, quantitative tightening, and central bank liquidity operations"
+    default_shock_scenario: "monetary_shock_hawkish"
+    patterns:
+      "rate hike": 3.0
+      "rate hikes": 3.0
+      "rate cut": 3.0
+      "rate cuts": 3.0
+      "raises rates": 3.0
+      "cuts rates": 3.0
+      "basis points": 2.6
+      fomc: 2.8
+      "federal reserve": 2.8
+      "the fed": 2.5
+      ecb: 2.6
+      rbi: 2.6
+      "bank of england": 2.6
+      "quantitative tightening": 3.0
+      "quantitative easing": 2.8
+      hawkish: 2.6
+      dovish: 2.6
+      "monetary policy": 2.8
+      "interest rate decision": 2.8
+      "terminal rate": 2.5
+
+  Natural Disaster:
+    prior: 0.70
+    prior_severity: 0.70
+    description: "Catastrophic environmental events, severe hurricanes, earthquakes, tsunamis, wildfires, massive floods, and extreme weather disrupting industry"
+    default_shock_scenario: "climate_disaster"
+    patterns:
+      earthquake: 3.0
+      hurricane: 3.0
+      tsunami: 3.0
+      wildfire: 2.8
+      wildfires: 2.8
+      flood: 2.6
+      flooding: 2.6
+      cyclone: 2.8
+      typhoon: 3.0
+      catastrophe: 2.4
+      "natural disaster": 3.0
+      tornado: 2.8
+      landslide: 2.6
+      drought: 2.5
+      "extreme weather": 2.4
+      "refinery damaged by storm": 3.0
+
+  Cyber/Operational:
+    prior: 0.60
+    prior_severity: 0.60
+    description: "Cybersecurity attacks, ransomware breaches, critical cloud outages, exchange system failures, and IT operational disruptions"
+    default_shock_scenario: "operational_cyber_failure"
+    patterns:
+      ransomware: 3.0
+      "cyber attack": 3.0
+      cyberattack: 3.0
+      "data breach": 3.0
+      hackers: 2.6
+      hacked: 2.6
+      outage: 2.6
+      "system failure": 2.8
+      ddos: 2.8
+      malware: 2.6
+      "cloud outage": 2.8
+      "zero-day": 2.8
+      "network downtime": 2.6
+      "operational breakdown": 2.6
+      compromised: 2.2
+      "it failure": 2.6
+
+  Regulatory/Legal:
+    prior: 0.55
+    prior_severity: 0.55
+    description: "Antitrust enforcement, regulatory investigations by SEC or DOJ, legal lawsuits, subpoenas, compliance fines, and license revocations"
+    default_shock_scenario: "regulatory_penalty"
+    patterns:
+      antitrust: 3.0
+      "sec probe": 3.0
+      "doj investigation": 3.0
+      subpoena: 2.8
+      subpoenas: 2.8
+      indictment: 3.0
+      indicted: 3.0
+      lawsuit: 2.6
+      sued: 2.4
+      "regulatory fine": 2.8
+      "fined by regulators": 2.8
+      compliance: 2.0
+      "enforcement action": 2.8
+      sanctioned: 2.2
+      probe: 2.4
+      investigation: 2.2
+      litigation: 2.4
+      fraud: 2.8
+
+  Supply Chain/Commodity:
+    prior: 0.55
+    prior_severity: 0.55
+    description: "Commodity price shocks in crude oil or gas, semiconductor component shortages, shipping port strikes, and maritime choke point bottlenecks"
+    default_shock_scenario: "commodity_oil_spike"
+    patterns:
+      "oil surge": 2.8
+      "crude spike": 2.8
+      opec: 2.6
+      "supply chain bottleneck": 3.0
+      "semiconductor shortage": 3.0
+      "chip shortage": 3.0
+      "port strike": 3.0
+      "suez canal": 2.8
+      "panama canal": 2.8
+      "freight rate surge": 2.8
+      "shipping disruption": 2.8
+      "cargo backlog": 2.6
+      "component shortage": 2.8
+      "raw material shortage": 2.8
+      gasoline: 2.2
+      "lng shortage": 2.6
+
+  Merger/Acquisition:
+    prior: 0.50
+    prior_severity: 0.50
+    description: "Corporate acquisitions, mega-mergers, takeover bids, corporate buyouts, divestitures, and buyout deal terminations"
+    default_shock_scenario: "corporate_deal_break"
+    patterns:
+      acquire: 3.0
+      acquires: 3.0
+      acquisition: 3.0
+      takeover: 3.0
+      "hostile bid": 3.0
+      merger: 3.0
+      buyout: 3.0
+      divest: 2.6
+      divestiture: 2.6
+      "bid for": 2.8
+      "agrees to buy": 3.0
+      "purchase agreement": 2.5
+      "deal valued at": 2.6
+      m&a: 2.8
+      "private equity buyout": 3.0
+      "tender offer": 2.8
+      "antitrust block of merger": 3.0
+
+  Earnings/Guidance:
+    prior: 0.40
+    prior_severity: 0.40
+    description: "Quarterly corporate earnings reports, profit warnings, revenue beats or misses, operating margin compression, and guidance revisions"
+    default_shock_scenario: "earnings_repricing"
+    patterns:
+      "profit warning": 3.0
+      "misses estimates": 3.0
+      "beats estimates": 3.0
+      "guidance cut": 3.0
+      "guidance raised": 3.0
+      "revenue plunge": 2.8
+      "revenue surges": 2.8
+      "earnings miss": 3.0
+      "earnings beat": 3.0
+      "operating margin": 2.5
+      "quarterly loss": 2.6
+      "net profit": 2.4
+      ebitda: 2.4
+      "fiscal year guidance": 2.6
+      "revenue decline": 2.5
+      "q1 results": 2.4
+      "q2 results": 2.4
+      "q3 results": 2.4
+      "q4 results": 2.4
+
+  Product Launch:
+    prior: 0.25
+    prior_severity: 0.25
+    description: "New product reveals, breakthrough technology demonstrations, flagship releases, FDA clinical approvals, and commercial rollouts"
+    default_shock_scenario: "tech_breakthrough"
+    patterns:
+      "product launch": 3.0
+      "unveils new": 2.8
+      "fda approval": 3.0
+      "fda approves": 3.0
+      breakthrough: 2.6
+      "flagship product": 2.8
+      "new platform": 2.4
+      "commercial rollout": 2.6
+      "patent granted": 2.6
+      "releases new": 2.4
+      "unveiled": 2.4
+      "next-generation": 2.4
+      debuts: 2.4
+      "clinical success": 2.6
+      "announces new line": 2.5
+
+  Other:
+    prior: 0.10
+    prior_severity: 0.10
+    description: "General market updates, routine trading commentary, miscellaneous analyst opinions, and unclassified economic news"
+    default_shock_scenario: "general_volatility"
+    patterns:
+      "market update": 2.0
+      "trading summary": 2.0
+      "analyst opinion": 1.8
+      "wall street opens": 1.8
+      "midday trading": 1.8
+      "daily wrap": 1.8
+      "stocks mixed": 1.8
+      "shares fluctuate": 1.8
+      "closing bell": 1.8
+      "weekly outlook": 1.8

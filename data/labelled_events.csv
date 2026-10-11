@@ -1,0 +1,121 @@
+text,label
+"US imposes new sanctions on Russian oil exporters",Geopolitical
+"Moody's downgrades retailer to junk after missed payment",Credit Event
+"Persistent CPI inflation and stagflation raise recession probability to 60%",Macroeconomic
+"Fed raises rates by 75 bps in aggressive tightening move",Monetary Policy
+"Category 5 hurricane forces major Gulf Coast refinery shutdowns",Natural Disaster
+"Ransomware cyber attack disables international container shipping terminals",Cyber/Operational
+"DOJ opens antitrust investigation into tech giant over market dominance",Regulatory/Legal
+"Port strike and semiconductor shortage choke automotive supply chains",Supply Chain/Commodity
+"Pfizer to acquire biotech firm for 4 billion dollars in cash takeover",Merger/Acquisition
+"Software firm issues profit warning and slashes annual revenue guidance",Earnings/Guidance
+"Tech company unveils new flagship AI processor with breakthrough performance",Product Launch
+"Stocks mixed in quiet summer trading session ahead of weekend",Other
+"Naval blockade in the Red Sea disrupts global container shipping routes",Geopolitical
+"Military airstrikes hit strategic fuel depot amid border conflict escalation",Geopolitical
+"Diplomatic talks collapse as neighboring nations trade cross-border artillery fire",Geopolitical
+"Government enforces strict export embargo on critical aerospace materials",Geopolitical
+"Tensions rise in Taiwan Strait as military drills prompt maritime rerouting",Geopolitical
+"New package of multilateral trade sanctions targets foreign sovereign debt",Geopolitical
+"Armed conflict threatens commercial aviation corridors across Eastern Europe",Geopolitical
+"Border skirmish prompts emergency evacuation of multinational mining complex",Geopolitical
+"Global coalition threatens economic blockade over contested territorial waters",Geopolitical
+"Commercial real estate developer defaults on 500 million dollar bond coupon",Credit Event
+"Fitch downgrades sovereign credit rating to speculative junk status",Credit Event
+"Regional utility files for Chapter 11 bankruptcy following liabilities",Credit Event
+"Distressed auto lender enters emergency debt restructuring moratorium",Credit Event
+"Credit default swap spreads blowout by 350 basis points on liquidity fears",Credit Event
+"Holding company breaches debt covenant following steep operating loss",Credit Event
+"Bondholders form creditor steering committee as insolvency looms",Credit Event
+"Telecom provider proposes distressed debt-for-equity swap to avoid liquidation",Credit Event
+"Subprime credit portfolio reports record delinquency rate and write-offs",Credit Event
+"Global GDP growth forecast slashed to 1.1% amid widespread economic stagnation",Macroeconomic
+"US core CPI inflation accelerates unexpectedly to 4.2% year-over-year",Macroeconomic
+"Manufacturing purchasing managers index drops to 46 signaling deep contraction",Macroeconomic
+"Labor market softens as nationwide unemployment rate spikes to four-year high",Macroeconomic
+"Consumer sentiment index sinks to historic low on persistent cost of living shock",Macroeconomic
+"Economists warn of stagflation as rising prices collide with zero output growth",Macroeconomic
+"Retail sales contract for third straight month reflecting broad consumer pullback",Macroeconomic
+"National trade deficit surges to record high as export demand weakens sharply",Macroeconomic
+"Treasury yield curve inversion deepens raising alarm bells over pending recession",Macroeconomic
+"European Central Bank delivers surprise 50 basis point rate hike to curb prices",Monetary Policy
+"Federal Open Market Committee signals higher terminal interest rate for longer",Monetary Policy
+"Bank of England accelerates quantitative tightening by selling gilt portfolio",Monetary Policy
+"Reserve Bank of India hikes benchmark repo rate in unanimous policy decision",Monetary Policy
+"Federal Reserve chair emphasizes unwavering commitment to tightening liquidity",Monetary Policy
+"Central bank unexpectedly cuts benchmark lending rates to stave off deflation",Monetary Policy
+"Commercial banks face tighter liquidity squeeze under central bank cash reserve ratio",Monetary Policy
+"Monetary authorities maintain restrictive benchmark rates despite slowing growth",Monetary Policy
+"Minutes of policy meeting reveal heated debate over further interest rate hikes",Monetary Policy
+"Magnitude 7.2 earthquake devastates industrial corridor and halts high-tech foundries",Natural Disaster
+"Flash flooding submerges open-pit lithium mines halting mineral extraction",Natural Disaster
+"Historic drought drops water levels in shipping canal cutting cargo capacity in half",Natural Disaster
+"Fast-moving wildfire threatens critical transmission lines and power substation",Natural Disaster
+"Tropical cyclone makes landfall causing widespread destruction to port facilities",Natural Disaster
+"Volcanic ash cloud grounds international cargo flights across regional hubs",Natural Disaster
+"Severe winter blizzard paralyzes ground transportation and shuts assembly plants",Natural Disaster
+"Torrential monsoon rains trigger landslides severing key railway freight lines",Natural Disaster
+"Major offshore drilling platform evacuated ahead of severe tropical storm",Natural Disaster
+"Critical infrastructure hit by sophisticated state-sponsored malware breach",Cyber/Operational
+"Zero-day security vulnerability exposes proprietary trading algorithms to hackers",Cyber/Operational
+"Major cloud service provider suffers multi-hour global outage grounding flights",Cyber/Operational
+"Chemical plant explosion triggers mandatory evacuation and halts production",Cyber/Operational
+"Rogue employee exfiltrates confidential client financial data in massive breach",Cyber/Operational
+"Coordinated distributed denial of service attack knocks major stock exchange offline",Cyber/Operational
+"Factory fire destroys principal semiconductor cleanroom halting deliveries",Cyber/Operational
+"Safety watchdog orders indefinite shutdown of manufacturing unit following leak",Cyber/Operational
+"Banking network hit by widespread ATM network outage during peak shopping hours",Cyber/Operational
+"Securities and Exchange Commission files fraud charges against cryptocurrency fund",Regulatory/Legal
+"Department of Justice launches antitrust civil suit against dominant tech platform",Regulatory/Legal
+"Federal Trade Commission blocks medical device acquisition over monopoly concerns",Regulatory/Legal
+"National banking regulator fines commercial lender 250 million dollars for AML lapses",Regulatory/Legal
+"Environmental protection authority serves cease-and-desist order on chemical refinery",Regulatory/Legal
+"Federal court judge issues preliminary injunction against new algorithmic rule",Regulatory/Legal
+"Corporate executive indicted by federal grand jury for illegal insider trading",Regulatory/Legal
+"Consumer financial protection bureau penalizes credit card issuer for junk fees",Regulatory/Legal
+"Patent litigation jury awards 800 million dollar infringement verdict against automaker",Regulatory/Legal
+"Global maritime union initiates indefinite strike paralyzing container terminals",Supply Chain/Commodity
+"Critical raw cobalt export quotas trigger acute shortage for battery manufacturers",Supply Chain/Commodity
+"Ruptured interstate pipeline halts crude deliveries to Midwest refinery network",Supply Chain/Commodity
+"Semiconductor chip packaging bottleneck delays automotive assembly nationwide",Supply Chain/Commodity
+"Freight railroad labor dispute threatens to freeze transport of agricultural crops",Supply Chain/Commodity
+"Export restrictions on refined copper spark price surge across metals markets",Supply Chain/Commodity
+"Severe congestion at major transshipment hub forces ocean carriers to bypass port",Supply Chain/Commodity
+"Aviation fuel shortages ground regional cargo transport flights across hubs",Supply Chain/Commodity
+"Severe shortage of skilled technical labor delays completion of battery megafactories",Supply Chain/Commodity
+"Global aerospace leader agrees to acquire avionics developer in 8 billion dollar deal",Merger/Acquisition
+"Conglomerate announces friendly takeover bid for regional retail competitor",Merger/Acquisition
+"Private equity consortium launches unsolicited 12 billion dollar buyout offer",Merger/Acquisition
+"Enterprise software rivals finalize definitive merger agreement to create giant",Merger/Acquisition
+"Defense contractor completes strategic acquisition of autonomous drone startup",Merger/Acquisition
+"National telecommunications provider moves to acquire fiber-optic network assets",Merger/Acquisition
+"Antitrust regulators clear cross-border acquisition of renewable energy operator",Merger/Acquisition
+"Shareholders overwhelmingly vote in favor of 5 billion dollar merger transaction",Merger/Acquisition
+"Medical supply firm rejects hostile takeover bid citing undervaluation",Merger/Acquisition
+"Semiconductor maker beats quarterly earnings expectations with record gross margin",Earnings/Guidance
+"Electric vehicle maker slashes full-year delivery forecast citing factory revamp",Earnings/Guidance
+"Retail chain posts disappointing same-store sales and lowers annual guidance",Earnings/Guidance
+"Investment bank reports 40% jump in trading revenues beating Wall Street consensus",Earnings/Guidance
+"Consumer goods giant warns higher commodity costs will squeeze quarterly margins",Earnings/Guidance
+"Industrial manufacturer reports quarterly net loss due to restructuring charges",Earnings/Guidance
+"Software firm issues downbeat revenue outlook sending shares lower in premarket",Earnings/Guidance
+"Medical device developer reports upbeat revenue growth and boosts yearly forecast",Earnings/Guidance
+"Energy major announces multi-billion dollar share buyback following record profit",Earnings/Guidance
+"Technology titan unveils flagship smartphone with next-generation neural processor",Product Launch
+"Automaker reveals commercial production version of all-electric pickup truck",Product Launch
+"Biotechnology company launches revolutionary FDA-approved gene therapy treatment",Product Launch
+"Software firm debuts enterprise generative AI platform for automated coding",Product Launch
+"Robotics company commercially releases autonomous warehouse sorting system",Product Launch
+"Consumer electronics brand announces high-end virtual reality headset",Product Launch
+"Financial technology platform introduces instant cross-border settlement service",Product Launch
+"Medical startup launches non-invasive blood glucose monitoring wearable",Product Launch
+"Aerospace firm rolls out next-generation commercial passenger aircraft engine",Product Launch
+"Corporation schedules annual shareholder meeting for third week of November",Other
+"Board of directors announces appointment of independent non-executive director",Other
+"Financial markets observe normal operating hours ahead of national holiday",Other
+"Company issues annual corporate social responsibility and sustainability report",Other
+"Executive leadership will participate in upcoming fireside chat at tech summit",Other
+"Corporate headquarters will officially transition to new downtown office facility",Other
+"Trading volume across equity markets remains muted during mid-day session",Other
+"Company completes routine external accounting audit without qualifications",Other
+"Chairman delivers opening remarks at annual industry trade symposium",Other

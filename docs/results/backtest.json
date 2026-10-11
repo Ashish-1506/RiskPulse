@@ -1,0 +1,32 @@
+{
+  "evaluation_period": {
+    "start_date": "2026-01-02",
+    "end_date": "2026-01-03",
+    "trading_days": 2
+  },
+  "transaction_cost_bps": 0.0,
+  "strategy": {
+    "cumulative_return": 0.1,
+    "annualized_volatility": 0.026727,
+    "sharpe_ratio": 460.2144,
+    "max_drawdown": 0.0,
+    "average_turnover": 0.011026
+  },
+  "strategy_net_of_cost": {
+    "cumulative_return": 0.1,
+    "annualized_volatility": 0.026727,
+    "sharpe_ratio": 460.2144,
+    "max_drawdown": 0.0,
+    "average_turnover": 0.011026
+  },
+  "benchmark_equal_weight": {
+    "cumulative_return": 0.1,
+    "annualized_volatility": 0.026727,
+    "sharpe_ratio": 460.2144,
+    "max_drawdown": 0.0,
+    "average_turnover": 0.0
+  },
+  "excess_cumulative_return": 0.0,
+  "net_excess_cumulative_return": 0.0,
+  "limitations_note": "The evaluation sample period is short, and historical backtest results are illustrative and intended solely for model validation. Past performance does not guarantee future results, and no claim of trading profitability is made."
+}

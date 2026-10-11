@@ -1,0 +1,692 @@
+{
+  "timestamp_utc": "2026-10-11T06:12:39.462136+00:00",
+  "sentiment": {
+    "sample_size": 1000,
+    "naive_lexicon": {
+      "accuracy": 0.664,
+      "macro_f1": 0.5348,
+      "confusion_matrix": [
+        [
+          30,
+          71,
+          12
+        ],
+        [
+          16,
+          519,
+          48
+        ],
+        [
+          9,
+          180,
+          115
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "vader": {
+      "accuracy": 0.555,
+      "macro_f1": 0.478,
+      "confusion_matrix": [
+        [
+          26,
+          43,
+          44
+        ],
+        [
+          35,
+          324,
+          224
+        ],
+        [
+          10,
+          89,
+          205
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "finbert": {
+      "accuracy": 0.803,
+      "macro_f1": 0.8084,
+      "confusion_matrix": [
+        [
+          112,
+          1,
+          0
+        ],
+        [
+          40,
+          398,
+          145
+        ],
+        [
+          5,
+          6,
+          293
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    }
+  },
+  "events": {
+    "dataset_size": 120,
+    "rules_only": {
+      "accuracy": 0.55,
+      "macro_f1": 0.5934,
+      "per_class": {
+        "Credit Event": {
+          "precision": 0.875,
+          "recall": 0.7,
+          "f1": 0.778,
+          "support": 10
+        },
+        "Cyber/Operational": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "support": 10
+        },
+        "Earnings/Guidance": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.182,
+          "support": 10
+        },
+        "Geopolitical": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.889,
+          "support": 10
+        },
+        "Macroeconomic": {
+          "precision": 0.833,
+          "recall": 0.5,
+          "f1": 0.625,
+          "support": 10
+        },
+        "Merger/Acquisition": {
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1": 0.9,
+          "support": 10
+        },
+        "Monetary Policy": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "support": 10
+        },
+        "Natural Disaster": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "support": 10
+        },
+        "Other": {
+          "precision": 0.167,
+          "recall": 1.0,
+          "f1": 0.286,
+          "support": 10
+        },
+        "Product Launch": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.571,
+          "support": 10
+        },
+        "Regulatory/Legal": {
+          "precision": 0.833,
+          "recall": 0.5,
+          "f1": 0.625,
+          "support": 10
+        },
+        "Supply Chain/Commodity": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.182,
+          "support": 10
+        }
+      },
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          5,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          4,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        "Credit Event",
+        "Cyber/Operational",
+        "Earnings/Guidance",
+        "Geopolitical",
+        "Macroeconomic",
+        "Merger/Acquisition",
+        "Monetary Policy",
+        "Natural Disaster",
+        "Other",
+        "Product Launch",
+        "Regulatory/Legal",
+        "Supply Chain/Commodity"
+      ]
+    },
+    "hybrid": {
+      "accuracy": 0.55,
+      "macro_f1": 0.5934,
+      "per_class": {
+        "Credit Event": {
+          "precision": 0.875,
+          "recall": 0.7,
+          "f1": 0.778,
+          "support": 10
+        },
+        "Cyber/Operational": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "support": 10
+        },
+        "Earnings/Guidance": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.182,
+          "support": 10
+        },
+        "Geopolitical": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.889,
+          "support": 10
+        },
+        "Macroeconomic": {
+          "precision": 0.833,
+          "recall": 0.5,
+          "f1": 0.625,
+          "support": 10
+        },
+        "Merger/Acquisition": {
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1": 0.9,
+          "support": 10
+        },
+        "Monetary Policy": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "support": 10
+        },
+        "Natural Disaster": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "support": 10
+        },
+        "Other": {
+          "precision": 0.167,
+          "recall": 1.0,
+          "f1": 0.286,
+          "support": 10
+        },
+        "Product Launch": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1": 0.571,
+          "support": 10
+        },
+        "Regulatory/Legal": {
+          "precision": 0.833,
+          "recall": 0.5,
+          "f1": 0.625,
+          "support": 10
+        },
+        "Supply Chain/Commodity": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.182,
+          "support": 10
+        }
+      },
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          5,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          4,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        "Credit Event",
+        "Cyber/Operational",
+        "Earnings/Guidance",
+        "Geopolitical",
+        "Macroeconomic",
+        "Merger/Acquisition",
+        "Monetary Policy",
+        "Natural Disaster",
+        "Other",
+        "Product Launch",
+        "Regulatory/Legal",
+        "Supply Chain/Commodity"
+      ]
+    },
+    "common_errors": [
+      {
+        "text": "Diplomatic talks collapse as neighboring nations trade cross-border artillery fire",
+        "true_label": "Geopolitical",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Border skirmish prompts emergency evacuation of multinational mining complex",
+        "true_label": "Geopolitical",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Holding company breaches debt covenant following steep operating loss",
+        "true_label": "Credit Event",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Telecom provider proposes distressed debt-for-equity swap to avoid liquidation",
+        "true_label": "Credit Event",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Subprime credit portfolio reports record delinquency rate and write-offs",
+        "true_label": "Credit Event",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Global GDP growth forecast slashed to 1.1% amid widespread economic stagnation",
+        "true_label": "Macroeconomic",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Manufacturing purchasing managers index drops to 46 signaling deep contraction",
+        "true_label": "Macroeconomic",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Consumer sentiment index sinks to historic low on persistent cost of living shock",
+        "true_label": "Macroeconomic",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "Retail sales contract for third straight month reflecting broad consumer pullback",
+        "true_label": "Macroeconomic",
+        "predicted_label": "Other"
+      },
+      {
+        "text": "National trade deficit surges to record high as export demand weakens sharply",
+        "true_label": "Macroeconomic",
+        "predicted_label": "Other"
+      }
+    ]
+  },
+  "impact_validation": {
+    "sample_size": 81,
+    "impact_vs_abs_return": {
+      "spearman_rho": -0.0924,
+      "p_value": 0.4118
+    },
+    "impact_vs_volatility": {
+      "spearman_rho": -0.091,
+      "p_value": 0.4192
+    },
+    "sentiment_vs_return": {
+      "spearman_rho": -0.1351,
+      "p_value": 0.2291
+    },
+    "disclaimer": "Empirical correlation reflects short-term market co-movement across historical observation dates and does NOT imply direct causal determinism."
+  },
+  "speed": {
+    "n_docs": 200,
+    "vader_rules": {
+      "processed": 200,
+      "duration_seconds": 0.988,
+      "docs_per_second": 202.39
+    },
+    "finbert_rules": {
+      "processed": 50,
+      "duration_seconds": 0.239,
+      "docs_per_second": 208.86
+    }
+  }
+}

@@ -1,0 +1,25 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "data",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+]
+ignore = [
+    "E501",  # line too long (handled by formatter or natural wrapping)
+    "E402",  # module level import not at top of file (needed for sys.path setups in scripts/pages)
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

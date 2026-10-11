@@ -1,0 +1,44 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment variables & secrets
+.env
+.streamlit/secrets.toml
+
+# Databases & local data stores
+*.db
+*.sqlite
+*.sqlite3
+data/raw/*
+!data/raw/.gitkeep
+data/signals.jsonl
+
+# Model caches & downloads
+models/
+.cache/
+hf_cache/
+nltk_data/
+
+# Testing & linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
